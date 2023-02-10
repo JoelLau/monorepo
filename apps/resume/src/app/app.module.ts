@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HomePageComponentModule } from '@monorepo/resume-ui';
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -7,6 +9,10 @@ import { AppComponent } from './app.component';
   imports: [
     // Angular
     BrowserModule,
+
+    // App
+    AppRoutingModule,
+    HomePageComponentModule,
   ],
   bootstrap: [AppComponent],
 })

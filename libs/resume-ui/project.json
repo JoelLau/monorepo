@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/resume-ui",
+  "sourceRoot": "libs/resume-ui/src",
+  "prefix": "monorepo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/resume-ui"],
+      "options": {
+        "jestConfig": "libs/resume-ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/resume-ui/src/**/*.ts",
+          "libs/resume-ui/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

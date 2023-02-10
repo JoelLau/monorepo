@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "resume": "apps/resume",
-    "resume-e2e": "apps/resume-e2e"
+    "resume-e2e": "apps/resume-e2e",
+    "resume-ui": "libs/resume-ui"
   }
 }

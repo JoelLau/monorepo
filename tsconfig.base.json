@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo/resume-data-access": ["libs/resume-data-access/src/index.ts"],
+      "@monorepo/resume-ui": ["libs/resume-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
