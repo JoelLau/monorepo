@@ -1,0 +1,49 @@
+@import '@fontsource/inter/variable-full.css';
+
+/**
+ * ================
+ *  Variables
+ * ================
+ */
+
+$font-size-md: 16px;
+$font-family-primary: 'InterVariable', sans-serif;
+$font-family-secondary: 'InterVariable', sans-serif;
+
+/**z
+ * ================
+ *  Styles
+ * ================
+ */
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.p,
+span,
+.span,
+super,
+.super,
+strong,
+.strong,
+em,
+.em,
+b,
+.b,
+i,
+.i {
+  margin: 0;
+  padding: 0;
+
+  font-family: $font-family-primary;
+}

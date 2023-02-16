@@ -1,0 +1,50 @@
+@use '../../../../styles.scss';
+@import '../../styles/_variables.scss';
+
+/**
+ * ================
+ *  Styles
+ * ================
+ */
+
+:host {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: $space-lg $space-md;
+  background-color: $bg-primary;
+}
+
+.page-container {
+  max-width: $page-width;
+}
+
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 0.5rem;
+}
+
+.preferred-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: $font-color-hero;
+}
+
+.preferred-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: $font-color-highlight;
+  white-space: nowrap;
+}
+
+.personal-subtext {
+  padding-top: $space-xs;
+  font-size: 1rem;
+  font-weight: normal;
+  color: grey;
+}
