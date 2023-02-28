@@ -1,0 +1,23 @@
+@import '@fontsource/inter/variable-full.css';
+@import './colors';
+
+/**
+ * ================
+ *  Fonts
+ * ================
+ */
+
+$font-color-primary: $independance;
+$font-color-secondary: $independance;
+$font-color-hero: $eerie-black;
+$font-color-highlight: $picton-blue;
+
+/**
+  * ================
+  *  Font-Family
+  * ================
+  */
+
+$font-size-md: 16px;
+$font-family-primary: 'InterVariable', sans-serif;
+$font-family-secondary: 'InterVariable', sans-serif;

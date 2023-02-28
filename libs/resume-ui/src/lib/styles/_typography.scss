@@ -1,21 +1,10 @@
-@import '@fontsource/inter/variable-full.css';
+@import './variables';
 
 /**
- * ================
- *  Variables
- * ================
- */
-
-$font-size-md: 16px;
-$font-family-primary: 'InterVariable', sans-serif;
-$font-family-secondary: 'InterVariable', sans-serif;
-
-/**z
  * ================
  *  Styles
  * ================
  */
-
 h1,
 .h1,
 h2,
@@ -41,9 +30,12 @@ em,
 b,
 .b,
 i,
-.i {
+.i,
+li,
+.li {
   margin: 0;
   padding: 0;
 
   font-family: $font-family-primary;
+  color: $font-color-primary;
 }

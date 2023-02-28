@@ -1,5 +1,4 @@
-@use '../../../../styles.scss';
-@import '../../styles/_variables.scss';
+@import '../../../../styles.scss';
 
 /**
  * ================
@@ -46,5 +45,20 @@
   padding-top: $space-xs;
   font-size: 1rem;
   font-weight: normal;
-  color: grey;
+  color: $font-color-primary;
+}
+
+.social-contacts {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  position: relative;
+  width: 80vw;
+  overflow-x: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
